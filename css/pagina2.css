@@ -1,0 +1,56 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 300px 100px 800px 50px;
+    grid-template-areas: 
+    'ban ban ban '
+    'lin lin lin '
+    'mis vis fot '
+    'pie pie pie'
+    
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: ban;
+}
+.aside{
+    background-color: rgb(205, 172, 233);
+    grid-area: lin;
+    text-align: center;
+}
+.aside2{
+    background-color: rgb(189, 63, 147);
+    grid-area: mis;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section{
+    background-color: rgb(230, 164, 226);
+    grid-area: vis;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    background-color: rgb(171, 132, 194);
+    grid-area: fot;
+    
+}
+
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img{
+    width: 1800px;
+    height: 305px;
+}
+.img2{
+    width: 600px;
+    height: 800px;
+}

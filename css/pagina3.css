@@ -1,0 +1,61 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 300px 100px 800px 50px;
+    grid-template-areas: 
+    'ban ban ban '
+    'lin lin lin '
+    'dia for fod '
+    'pie pie pie'
+    
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: ban;
+}
+.aside{
+    background-color: rgb(145, 170, 105);
+    grid-area: lin;
+    text-align: center;
+}
+.aside2{
+    background-color: rgb(74, 116, 8);
+    grid-area: dia;
+    text-align: center;
+    align-content: center;
+}
+nav{
+    background-color: rgb(171, 132, 194);
+    grid-area: for;
+    text-align: center;
+    align-content: center;
+
+}
+section{
+    background-color: rgb(238, 218, 152);
+    grid-area: fod;
+    
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img{
+    width: 1800px;
+    height: 305px;
+}
+.img1{
+    width: 500px;
+    height: 500px;
+}
+.img2{
+    width: 500px;
+    height: 500px;
+}
+

@@ -1,0 +1,55 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 300px 100px 800px 50px;
+    grid-template-areas: 
+    'ban ban ban '
+    'lin lin lin '
+    'for inf con'
+    'pie pie pie'
+    
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: ban;
+}
+.aside{
+    background-color: rgb(92, 109, 206);
+    grid-area: lin;
+    text-align: center;
+}
+.aside2{
+    background-color: rgb(57, 90, 199);
+    grid-area: for;
+    text-align: center;
+}
+nav{
+    background-color: rgb(230, 100, 49);
+    grid-area: inf;
+    text-align: center;
+
+}
+section{
+    background-color: rgb(133, 179, 27);
+    grid-area: con;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img{
+    width: 1800px;
+    height: 305px;
+}
+.img1{
+    width: 350px;
+    height: 750px;
+}
